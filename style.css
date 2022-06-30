@@ -1,0 +1,40 @@
+* {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700 !important;
+}
+.cont .row {
+  margin-top: 85px;
+}
+.recipeCollection {
+  background-image: url("photos/overlay.png");
+  max-height: 100vh;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recipeCollection h1 {
+  line-height: 98px;
+  font-size: 72px;
+  margin: 0;
+}
+.recipeCollection p {
+  width: 560px;
+  font-size: 24px;
+  line-height: 35px;
+  margin: 0;
+}
+.down i {
+  font-size: 26px;
+  margin: 0 20px;
+}
+.down p {
+  opacity: 0.7;
+  font-size: 13px;
+}
