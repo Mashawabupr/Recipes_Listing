@@ -1,7 +1,6 @@
 * {
-  color: white;
+  color: #272044;
   font-family: "Nunito", sans-serif;
-  font-weight: 700 !important;
 }
 .active {
   color: purple !important;
@@ -23,12 +22,34 @@
   align-items: center;
 }
 .recipeCollection h1 {
+  color: white;
   line-height: 98px;
   font-size: 72px;
   margin: 0;
 }
+@media (max-width: 500px) {
+  .recipeCollection h1 {
+    font-size: 50px;
+  }
+
+  .aboutMe .col-md-4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 770px) {
+  .aboutMe .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .recipeCollection p {
-  max-width: 560px;
+  color: white;
   font-size: 24px;
   line-height: 35px;
   margin: 0;
@@ -54,4 +75,28 @@
 }
 .main col-5 {
   margin: 10px;
+}
+.aboutMe h1 {
+  text-align: center;
+  font-size: 72px;
+}
+.aboutMe {
+  margin-top: 130px;
+}
+.aboutMe h2 {
+  font-size: 64px;
+  line-height: 87px;
+}
+.aboutMe p {
+  max-width: 460px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400 !important;
+}
+.aboutMe i {
+  font-size: 26px;
+  padding: 0 15px;
+}
+.aboutMe .row {
+  padding-top: 100px;
 }
