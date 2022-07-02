@@ -113,3 +113,14 @@
 .mainAbout p {
   max-width: 360px;
 }
+hr {
+  border: 1px solid #67d5d2 !important;
+  margin: 10px 0 !important;
+}
+.pink {
+  color: #f65282;
+}
+.pPink {
+  font-size: 18px;
+  line-height: 30px;
+}
