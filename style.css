@@ -40,7 +40,8 @@
   }
 }
 @media (max-width: 770px) {
-  .aboutMe .col-md-4 {
+  .aboutMe .col-md-4,
+  .mainAbout .col-md-4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,4 +100,16 @@
 }
 .aboutMe .row {
   padding-top: 100px;
+}
+.mainAbout {
+  padding: 100px 0 40px;
+}
+.mainAbout h2 {
+  font-size: 36px;
+}
+.mainAbout h3 {
+  font-size: 24px;
+}
+.mainAbout p {
+  max-width: 360px;
 }
