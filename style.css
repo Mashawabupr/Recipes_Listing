@@ -41,7 +41,8 @@
 }
 @media (max-width: 770px) {
   .aboutMe .col-md-4,
-  .mainAbout .col-md-4 {
+  .mainAbout .col-md-4,
+  .contact .col-md-4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,4 +127,14 @@ hr {
 }
 .contact h1 {
   font-size: 72px;
+}
+.contact h5 {
+  color: #662eed;
+  padding-bottom: 10px;
+}
+.contact p {
+  font-size: 20px;
+}
+.info {
+  padding: 0 25px;
 }
