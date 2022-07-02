@@ -31,7 +31,12 @@
   .recipeCollection h1 {
     font-size: 50px;
   }
-
+  .aboutMe h1 {
+    font-size: 40px !important;
+  }
+  .contact h1 {
+    font-size: 40px !important;
+  }
   .aboutMe .col-md-4 {
     display: flex;
     justify-content: center;
@@ -42,12 +47,15 @@
 @media (max-width: 770px) {
   .aboutMe .col-md-4,
   .mainAbout .col-md-4,
-  .contact .col-md-4 {
+  .contact .col-md-5 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+  }
+  .contact h1 {
+    padding-bottom: 0 !important;
   }
 }
 .recipeCollection p {
